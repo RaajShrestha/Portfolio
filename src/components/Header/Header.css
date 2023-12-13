@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kanit&family=Lugrasimo&family=Montserrat:wght@500&family=Noto+Serif+Vithkuqi:wght@600&family=Poppins:wght@300;400&family=Teko:wght@300;500&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Lugrasimo', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Serif Vithkuqi', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Teko', sans-serif;
+}
