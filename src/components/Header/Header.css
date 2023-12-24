@@ -1,15 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Kanit&family=Lugrasimo&family=Montserrat:wght@500&family=Noto+Serif+Vithkuqi:wght@600&family=Poppins:wght@300;400&family=Teko:wght@300;500&display=swap');
 
 
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Anton', sans-serif;
-font-family: 'Kanit', sans-serif;
-font-family: 'Lugrasimo', cursive;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Noto Serif Vithkuqi', serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Teko', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Lugrasimo', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Serif Vithkuqi', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Teko', sans-serif;
+}
+
+.nav_bar {
+    width: 100%;
+    min-width: 600px;
+    height: 100vh;
+    padding: 20px 200px;
+    background: red;
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav_menu{
+    background: lightblue;
+    
+}
+.nav_list{
+    width: 100%;
+    min-width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+.nav_list li a{
+    text-decoration: none;
 }
